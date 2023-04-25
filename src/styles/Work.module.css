@@ -1,0 +1,151 @@
+.work{
+    width: 100%;
+    height: fit-content;
+    display: flex;
+    flex-direction: column;
+   
+}
+.work .title{
+font-style: normal;
+font-weight: 600;
+font-size: 15px;
+line-height: 30px;
+text-align: center;
+text-transform: uppercase;
+}
+.work .description{
+    font-family: 'Lexend Deca';
+font-style: normal;
+font-weight: 700;
+font-size: 30px;
+line-height: 40px;
+text-align: center;
+}
+.work .steps{
+    color: var(--primary-color);
+}
+
+
+
+/* ******box****** */
+.container{
+    width: 100%;
+    height: 100vh;
+    display: grid;
+    grid-template-rows: 1.2fr 1fr;
+    gap: 30px;
+    
+    margin: 40px 0px;
+}
+.container .top{
+    width: 100%;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr ;
+    
+    gap: 20px;
+}
+.container .down{
+    width: 100%;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr ;
+    
+    gap: 20px;
+}
+.container .top .box1,.box2,.box3{
+    
+    display: flex;
+    flex-direction: column;
+    
+    align-items: center;
+}
+.container .down .box4,.box5,.box6{
+    
+    display: flex;
+    flex-direction: column;
+    
+    align-items: center;
+}
+.container .top .circle{
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    background-color: var(--primary-color);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-weight: 600;
+    color: white;
+}
+.container .down .circle{
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    background-color: var(--primary-color);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-weight: 600;
+    font-size: 40px;
+    color: white;
+}
+.container .title{
+    font-size: 15px;
+    color: var(--text-color);
+    font-weight: 700;
+    line-height: 45px;
+text-align: center;
+}
+
+
+/* ********Mobile Responsible******** */
+
+@media screen and (max-width: 360px) {
+    .work{
+        width: 100%;
+        height: 1650px; 
+        align-items: center;
+    }
+    .work .title{
+        font-weight: 600;
+        font-size: 1.3rem;
+        line-height: 30px;
+        padding: 20px 0px;
+        }
+        .work .description{
+            font-family: 'Lexend Deca';
+        font-style: normal;
+        font-weight: 700;
+        font-size: 30px;
+        line-height: 40px;
+        text-align:center;
+        }
+        .container{
+            width: 100%;
+            height: fit-content;
+            display: flex;
+            flex-direction: column;
+            gap: 30px;
+            flex-wrap: wrap;
+            margin: 40px 0px;
+        }
+        .container .top{
+            width: 100%;
+            display: flex;
+            flex-direction: column;
+            flex-wrap: wrap;
+            gap: 20px;
+        }
+        .container .down{
+            width: 100%;
+            display: flex;
+            flex-direction: column;
+            flex-wrap: wrap;
+            gap: 20px;
+        }
+      .container .down .circle, .container .top .circle{
+            width: 60px;
+            height: 60px;
+            font-size: 40px;
+        }
+
+}

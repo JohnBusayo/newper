@@ -1,0 +1,12 @@
+.main{
+    padding: 0px 20px;
+    margin: 0px 20px;
+}
+/* ********Mobile Responsible******** */
+
+@media screen and (max-width: 360px)  {
+    .main{
+        padding: 0px 10px;
+        margin: 0px 10px;
+    }
+}

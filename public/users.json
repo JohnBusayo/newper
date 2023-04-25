@@ -1,0 +1,22 @@
+{
+    "john":{
+        "Age":28,
+        "Name": "john",
+        "favourite": "football"
+    },
+    "Kike":{
+        "Age":28,
+        "Name": "john",
+        "favourite": "football"
+    },
+    "Shola":{
+        "Age":28,
+        "Name": "john",
+        "favourite": "football"
+    },
+    "Femi":{
+        "Age":28,
+        "Name": "john",
+        "favourite": "football"
+    }
+}
